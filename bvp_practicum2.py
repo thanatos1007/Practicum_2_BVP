@@ -57,6 +57,4 @@ def voeg_overval_toe (wereld, x, y):
        Binnen_grenzen = False           
     else: 
         Binnen_grenzen = True
-        overvaltoevoegen = (x,y,1)
-        wereld.append(overvaltoevoegen)
     return Binnen_grenzen
