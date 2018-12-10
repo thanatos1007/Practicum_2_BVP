@@ -17,7 +17,7 @@ def print_result(test_nb, succes_boolean):
 
 # Testen voor de functie creeer_wereld(hoogte, breedte)
 def test_creeer_wereld():
-    # Test 1
+    # Test 1    
     succes = False
     try:
         wereld = bvp_practicum2.creeer_wereld(1000, 1000)
