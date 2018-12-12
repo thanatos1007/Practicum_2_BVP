@@ -17,7 +17,7 @@ def print_result(test_nb, succes_boolean):
 
 # Testen voor de functie creeer_wereld(hoogte, breedte)
 def test_creeer_wereld():
-    # Test 1    
+    # Test 1
     succes = False
     try:
         wereld = bvp_practicum2.creeer_wereld(1000, 1000)
@@ -222,7 +222,7 @@ def run_all_tests():
     print('Testen voor de functie:', 'voeg_overval_toe(wereld, x, y)')
     test_voeg_overval_toe()
     print('###')
-    print('Testen voor de functie:', 'geef_aantal_overvallen(wereld)')
+    print('Testen voor  0de functie:', 'geef_aantal_overvallen(wereld)')
     test_geef_aantal_overvallen()
     print('###')
     print('Testen voor de functie:', 'geef_aantal_overvallen_op_positie(wereld, x, y)')
